@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IS601-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IS601</h1>
+        <h1>Assignment - 2</h1>
+
+        <!-- Reversing a String -->
+        <div class="section">
+            <h2>Reversing a String</h2>
+            <input type="text" id="reverseInput" placeholder="Enter a string">
+            <button onclick="reverseString()">Reverse</button>
+            <p id="reverseResult"></p>
+        </div>
+
+        <!-- Checking for a palindrome -->
+        <div class="section">
+            <h2>Check if Number is a Palindrome or not</h2>
+            <input type="text" id="palindromeInput" placeholder="Enter a number">
+            <button onclick="checkPalindrome()">Check Palindrome</button>
+            <p id="palindromeResult"></p>
+        </div>
+
+        <!-- Total bill calculator -->
+        <div class="section">
+            <h2>Bill Calculator</h2>
+            <input type="number" id="subtotal" placeholder="Enter subtotal" min="0">
+            <input type="number" id="tipPercentage" placeholder="Enter tip percentage" min="0">
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <p id="totalResult"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
